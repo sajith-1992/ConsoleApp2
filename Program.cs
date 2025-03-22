@@ -8,21 +8,27 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(Mygreat(8, 9));
-    }
-   public static string Mygreat(int a,int b) {
+        int[] myname = { 1, 2, 3, 4, 5 };
+        for(int i=0;i<myname.Length
+            ; i++)
+        {
+            Console.WriteLine(i);
 
-        string great = "";
-        if (a < b)
-        {
-            great = "a is big";
         }
-        else
+
+        foreach(int i in myname
+            )
         {
-            great = "b is big";
+            Console.WriteLine(i);
+            
         }
-        return great;
-    
-    
+        int j = 0;
+        while (j < myname.Length)
+        {
+
+            Console.WriteLine(j);
+            j++;
+        }
     }
-    }
+}
+ 

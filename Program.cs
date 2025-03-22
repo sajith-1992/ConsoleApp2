@@ -12,7 +12,6 @@ internal class Program
         for(int i=0;i<myname.Length
             ; i++)
         {
-            Console.WriteLine(i);
 
         }
 
